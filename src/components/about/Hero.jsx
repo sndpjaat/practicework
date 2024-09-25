@@ -20,8 +20,9 @@ const Hero = () => {
           <button className='py-3 px-5  border bg-slate-950 text-white ' onClick={() => setCount(0)}>reset</button>
         </div>
         <div className=' flex flex-col items-center'>
-          <h1 className={`pt-5 text-5xl ${toggle ? " text-black" : "text-red-900"}`}>{toggle ? "sandeep" : "jaat"}</h1>
+          <h1 className={`pt-5 text-5xl ${toggle ? " text-black" : "text-red-900"}`}>{toggle ? "jaat" : "sandeep"}</h1>
           <button className={`py-3 px-5 mt-4 border bg-slate-950 text-white ${toggle ? "bg-red-400" : "bg-slate-600"}`} onClick={() => setToggle(!toggle)}>{toggle ?  "click" :"sign"}</button>
+    
         </div>
       </div>
     </div>
